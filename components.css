@@ -1,0 +1,25 @@
+/* weekly song */
+.weekly-song {
+    font-family: Arial, sans-serif;
+}
+.song-item {
+    display: flex;
+    align-items: center;
+    padding: 13px 8px;
+    border-bottom: 1px solid #fbeaea;
+}
+.song-item .song-number {
+    font-size: 20px;
+}
+.song-item .song-info {
+    flex-grow: 2;
+    margin-left: 15px;
+}
+.song-item .song-info .title {
+     font-size: 17px;
+     padding-bottom: 8px;
+}
+.song-item .song-info .author, .song-view {
+    font-size: 13px;
+    color: #b59f9f;
+}
