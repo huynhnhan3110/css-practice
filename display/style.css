@@ -1,0 +1,28 @@
+p {
+    margin: 0;
+    display: inline-flex;
+    flex-direction: column;
+}
+.text1 {
+    background: #ddd;
+}
+.text2 {
+    background-color: yellow;
+}
+
+.parent {
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;  
+
+}
